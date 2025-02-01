@@ -1,4 +1,4 @@
 const AdminPage = () => {
-  return <div className=""></div>;
+  return <div className="">Admin</div>;
 };
 export default AdminPage;

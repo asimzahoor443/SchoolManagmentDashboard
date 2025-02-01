@@ -1,4 +1,4 @@
 const ParentPage = () => {
   return <div className=""></div>;
 };
-export default AdminPage;
+export default ParentPage;
