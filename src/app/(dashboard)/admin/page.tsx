@@ -1,5 +1,6 @@
 import AttendenceCart from '@/components/AttendenceCart';
 import CountChart from '@/components/CountChart';
+import FinanceChart from '@/components/FinanceChart';
 import UserCart from '@/components/UserCart';
 
 const AdminPage = () => {
@@ -26,7 +27,9 @@ const AdminPage = () => {
           </div>
         </div>
         {/* BOTTOM CHARTS */}
-        <div className="w-full h-[500px]"></div>
+        <div className="w-full h-[500px]">
+          <FinanceChart />
+        </div>
       </div>
       {/* Left Side */}
       <div className="w-full lg:w-1/3">R</div>
