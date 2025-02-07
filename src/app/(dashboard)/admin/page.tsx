@@ -26,7 +26,7 @@ const AdminPage = () => {
           </div>
         </div>
         {/* BOTTOM CHARTS */}
-        <div className=""></div>
+        <div className="w-full h-[500px]"></div>
       </div>
       {/* Left Side */}
       <div className="w-full lg:w-1/3">R</div>
