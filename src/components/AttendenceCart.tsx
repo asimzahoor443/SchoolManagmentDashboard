@@ -52,10 +52,10 @@ const AttendenceCart = () => {
           <XAxis
             dataKey="name"
             axisLine={false}
-            tick={{ fill: '#d1d5db' }}
+            tick={{ fill: '#143D60' }}
             tickLine={false}
           />
-          <YAxis axisLine={false} tick={{ fill: '#d1d5db' }} tickLine={false} />
+          <YAxis axisLine={false} tick={{ fill: '#143D60' }} tickLine={false} />
           <Tooltip />
           <Legend
             align="left"
@@ -70,7 +70,7 @@ const AttendenceCart = () => {
           />
           <Bar
             dataKey="absent"
-            fill="#C3EBFA"
+            fill="#5C7285"
             legendType="circle"
             radius={[10, 10, 0, 0]}
           />

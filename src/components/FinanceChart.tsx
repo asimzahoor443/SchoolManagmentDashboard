@@ -98,10 +98,10 @@ const FinanceChart = () => {
           <XAxis
             dataKey="name"
             axisLine={false}
-            tick={{ fill: '#d1d5db' }}
+            tick={{ fill: '#143D60' }}
             tickLine={false}
           />
-          <YAxis axisLine={false} tick={{ fill: '#d1d5db' }} tickLine={false} />
+          <YAxis axisLine={false} tick={{ fill: '#143D60' }} tickLine={false} />
           <Tooltip />
           <Legend
             align="center"
@@ -111,10 +111,10 @@ const FinanceChart = () => {
           <Line
             type="monotone"
             dataKey="income"
-            stroke="#C3EBFA"
+            stroke="#DE3163"
             activeDot={{ r: 8 }}
           />
-          <Line type="monotone" dataKey="expense" stroke="#CFCEFF" />
+          <Line type="monotone" dataKey="expense" stroke="#5B913B" />
         </LineChart>
       </ResponsiveContainer>
     </div>
